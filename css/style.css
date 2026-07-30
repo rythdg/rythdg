@@ -1,0 +1,37 @@
+/* base styles - to be filled in */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+header nav {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+}
